@@ -15,6 +15,7 @@ st.set_page_config(page_title="Smart AI Assistant", page_icon="💡", layout="ce
 
 # ---------------------------- API KEY ----------------------------
 API_KEY = os.getenv("HF_KEY")  # Must be set in .env file
+st.secrets["HF_TOKEN"]
 
 # ---------------------------- CUSTOM CSS ----------------------------
 st.markdown("""
